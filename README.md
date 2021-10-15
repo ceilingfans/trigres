@@ -1,4 +1,4 @@
-# trigres (short for trigonometical equation resolver (resolver probably doesn't mean what I meant it to be but who cares))
+# trigres
 
 This is my first real c++ project that I didn't fork from another person and just edit variable names.
 It helps to solve trigonometric equations

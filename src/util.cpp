@@ -52,7 +52,7 @@ void printEquations(const double &p_hyp, const double &p_opp, const double &p_ad
 void printUsage()
 {
   cout << "trigres - dogwater trigonometry helper tool\n"
-          "\nUsage:\ttrigres [-hv] [-v | --version] [--help] [<command> <args>]" << endl;
+          "\nUsage:\ttrigres [-v | --version] [--help] [<command> <args>]" << endl;
 
   cout << "\nFlags for trigres\n"
           "\thelp\t\t\t\tDisplays this message\n"
@@ -76,10 +76,10 @@ void printVersion()
 
 void printHelp(const string &opt)
 {
-  if (opt == "help" || opt == "h")
+  if (opt == "help")
   {
     cout << "NAME\n"
-            "\t{-h | --help} - Displays the full help message" << endl;
+            "\t--help - Displays the full help message" << endl;
     return;
   }
   else if (opt == "version" || opt == "v")
